@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="LAYOUT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <AnchorPane fx:id="AnchorRight" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #ACFAE8;" BorderPane.alignment="CENTER">
+         <PasswordField fx:id="Text_P2" layoutX="75.0" layoutY="317.0" prefHeight="26.0" prefWidth="200.0" promptText="Confirm Password" style="-fx-border-color: #00FFC1; -fx-border-width: 0px 0px 2px 0px; -fx-background-color: #F0F4F7;" />
+         <TextField fx:id="Text_U" layoutX="75.0" layoutY="213.0" prefHeight="26.0" prefWidth="200.0" promptText="Gmail" style="-fx-border-color: #00FFC1; -fx-border-width: 0px 0px 2px 0px; -fx-background-color: #F0F4F7;" />
+         <FontAwesomeIconView fx:id="Icon_U" fill="#00ffc1" glyphName="USER" layoutX="258.0" layoutY="231.0" />
+         <FontAwesomeIconView fx:id="Icon_P" fill="#00ffc1" glyphName="KEY" layoutX="257.0" layoutY="335.0" text="" />
+         <ImageView fitHeight="109.0" fitWidth="109.0" layoutX="120.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" style="-fx-clip: 2px;" styleClass="-fx-clip">
+            <image>
+               <Image url="@../../../asset/Logo.jpg" />
+            </image>
+         </ImageView>
+         <Button fx:id="BTN_sign" layoutX="75.0" layoutY="384.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="CONFIRM" />
+         <PasswordField fx:id="Text_P1" layoutX="74.0" layoutY="266.0" prefHeight="28.0" prefWidth="201.0" promptText="Password" style="-fx-border-color: #00FFC1; -fx-border-width: 0px 0px 2px 0px; -fx-background-color: #F0F4F7;" />
+         <Label fx:id="Label_FP" layoutX="95.0" layoutY="123.0" text="FORGOT PASSWORD">
+            <font>
+               <Font name="Ebrima Bold" size="16.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+   </right>
+   <left>
+      <AnchorPane fx:id="AnchorLeft" prefHeight="500.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <Label fx:id="Label_WT" layoutX="103.0" layoutY="320.0" text="WELCOME TO">
+            <font>
+               <Font name="Ebrima Bold" size="22.0" />
+            </font>
+         </Label>
+         <ImageView fx:id="Img_Logo" fitHeight="274.0" fitWidth="322.0" layoutX="38.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../asset/ip13-260923-110213.jpg" />
+            </image>
+         </ImageView>
+         <Label fx:id="Label_CN" layoutX="89.0" layoutY="342.0" text="GO CHAT">
+            <font>
+               <Font name="System Bold" size="39.0" />
+            </font>
+         </Label>
+         <Label layoutX="129.0" layoutY="398.0" text="Chat with anyone" />
+      </AnchorPane>
+   </left>
+</BorderPane>
