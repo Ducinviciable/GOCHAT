@@ -7,9 +7,7 @@ import javafx.stage.Stage;
 
 public class Login extends Application{
 
-    public static void main(String[] args) throws Exception {
-        launch(args);
-    }
+
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -18,5 +16,8 @@ public class Login extends Application{
         stage.setTitle("LOGIN");
         stage.setScene(scene);
         stage.show();
+    }
+    public static void main(String[] args) throws Exception {
+        launch(args);
     }
 }
