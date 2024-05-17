@@ -1,0 +1,23 @@
+.Pane_Toolbar{
+    -fx-background-color: #dcdcdc;
+}
+.Icon_Ops:hover{
+    -fx-border-width: 0px 0px 0px 10px;
+    -fx-text-fill: #2BBCF5;
+    -fx-fill: #2BBCF5;
+    -fx-border-style: solid ;
+}
+
+.Icon_Mess:hover{
+    -fx-border-width: 0px 0px 0px 10px;
+    -fx-border-style: solid ;
+    -fx-text-fill: #2BBCF5;
+    -fx-fill: #2BBCF5;
+}
+
+.Icon_Group:hover{
+    -fx-border-width: 0px 0px 0px 10px;
+    -fx-border-style: solid ;
+    -fx-text-fill: #2BBCF5;
+    -fx-fill: #2BBCF5;
+}
